@@ -1,0 +1,25 @@
+    1  history
+    2  git clone https://github.com/betulserin/HW_10.git
+    3  cd HW_10
+    4  touch text_ignore.txt
+    5  git status
+    6  git add.
+    7  git add .
+    8  git commit -m ".gitignore file has been succesfully uptaded"
+    9  touch main_test.txt
+   10  git add .
+   11  git commit -m "main_test file has been added"
+   12  git status
+   13  git chechout -b develop
+   14  git checkout -b develop
+   15  touch develop_test.txt
+   16  git add .
+   17  git commit -m "develop_test file has been added"
+   18  git status
+   19  git add .
+   20  git commit -m "develop_test has been updated"
+   21  git status
+   22  git checkout main
+   23  git merge develop
+   24  git log
+   25  history > command_list.csv
